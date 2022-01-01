@@ -7,6 +7,7 @@
 We use images from different sources, the size of image varies. Hence we need to rescale the images using length of horizontal diameter of fundus as reference. Here Bicubic 
 interpolation is used for resizing of image. The output pixel is weighted average of pixels in nearest 4,4 neighbourhood. After rescaling, to remove noise we use Median filter 
 using 3,3 neighbourhood.
+
 ![Screenshot 2022-01-01 192607](https://user-images.githubusercontent.com/93415381/147852180-cc76e742-a438-47fa-802b-85588489c47b.png)
 
 ### FEATURE EXTRACTION
